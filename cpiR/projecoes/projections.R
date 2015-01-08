@@ -1,0 +1,7 @@
+SAD_metros <- function() {
+  "+proj=poly +lat_0=0 +lon_0=-54 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs"
+}
+
+SAD_lonlat <- function () {
+  return("+proj=longlat +ellps=GRS67 +no_defs")
+}
